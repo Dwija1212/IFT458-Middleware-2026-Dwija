@@ -9,34 +9,69 @@ I cloned the instructor's IFT458-Middleware-2026 repository and opened the proje
 
 I configured the backend environment to connect to MongoDB Atlas and started the backend server using:
 
-`node server.js`
+```bash
+node server.js
+```
 
-The terminal confirmed that the application was running on port 4000 and that the database connection was successful.
+The backend application ran on port 4000, and the MongoDB connection was successful.
 
-I opened `http://localhost:4000` in my browser and captured a screenshot of the running backend application.
+I opened http://localhost:4000 in my browser and captured a screenshot of the running backend application.
 
-Git Workflow
+## Git Workflow
 
-The following Git commands were used to update and upload my backend and mobile documentation and screenshots.
+The following Git commands were used to track and upload my work.
 
-git status — Checked the repository for modified and untracked files.
+### 1. Git Status
 
-git add -A — Staged the documentation and screenshot changes.
+```bash
+git status
+```
 
-git commit -m "Update Dwija backend and mobile documentation" — Committed the changes.
+This command displays the current branch and identifies modified, staged, and untracked files.
 
-git push origin main — Pushed the commit to GitHub.
+### 2. Git Add
 
-Terminal Output Evidence
+```bash
+git add -A
+```
 
-The terminal confirmed that the commit was successful and that the changes were pushed to the main branch.
+This command stages changes in the working directory for committing.
 
-The commit included updated documentation and renamed screenshot files.
+### 3. Git Commit
 
-Screenshots
+```bash
+git commit -m "Update Dwija backend and mobile documentation"
+```
 
-My backend and mobile screenshots are available in the repository's screenshot folders.
+This command saves the staged changes in a Git commit.
 
-GitHub Repository
+### 4. Git Push
+
+```bash
+git push origin main
+```
+
+This command uploads committed changes to the remote GitHub repository.
+
+## Terminal Output Evidence
+
+The terminal showed the current branch and repository changes when `git status` was executed.
+
+The `git add -A` command staged the relevant changes. A successful `git add` normally produces no output.
+
+The terminal confirmed that the documentation commit was created successfully. An earlier commit displayed:
+
+```text
+[main 53e3094] Add Dwija server documentation
+1 file changed, 56 insertions(+)
+```
+
+The terminal subsequently confirmed that changes were pushed to the `main` branch using `git push origin main`.
+
+## Screenshots
+
+My backend and mobile application screenshots are available in the repository's `screenshots/` folder and my personal screenshot folder.
+
+## GitHub Repository
 
 https://github.com/Dwija1212/IFT458-Middleware-2026-Dwija

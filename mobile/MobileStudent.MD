@@ -1,34 +1,34 @@
-Mobile App Notes - Dwija Chaudhari
+# Mobile App Notes — Dwija Chaudhari
 
-What is React Native
+## What Is React Native?
 
 React Native is a framework for building mobile applications using JavaScript and React.
 
-It supports developing applications for both iOS and Android using a shared codebase.
+It supports developing applications for iOS and Android using a shared codebase.
 
 It uses native interface components for mobile applications.
 
-What is Expo
+## What Is Expo?
 
 Expo provides tools for developing and testing React Native applications.
 
-The command npm install installs the required project dependencies.
+The command `npm install` installs the required project dependencies.
 
-The command npx expo start launches the Expo development server.
+The command `npx expo start` launches the Expo development server.
 
-Pressing w opens the application in a web browser.
+Pressing `w` opens the application in a web browser.
 
-What I Observed
+## What I Observed
 
 I opened the mobile project in a separate Visual Studio Code window.
 
-I installed the dependencies using npm install.
+I installed the dependencies using `npm install`.
 
-I started the application using npx expo start.
+I started the application using `npx expo start`.
 
-I pressed w to launch the application in Chrome.
+I pressed `w` to launch the application in Chrome.
 
-I encountered a missing navigation import error in App.js.
+I encountered a missing navigation import error in `App.js`.
 
 I added the required imports and successfully opened the mobile application.
 
@@ -36,36 +36,50 @@ The application includes Home, Login, and Register screens.
 
 The backend was running on port 4000 with a successful MongoDB connection.
 
-Git Terminal Output Evidence
+## Git Workflow
 
-1. Git Status
+### 1. Git Status
 
-Command: git status
+```bash
+git status
+```
 
-The terminal showed that the branch was up to date with origin/main. It identified the modified documentation files and the screenshot files that needed to be staged.
+This command checks the current branch and identifies modified and untracked files.
 
-2. Git Add
+### 2. Git Add
 
-Command: git add -A
+```bash
+git add -A
+```
 
-This command staged the updated backend and mobile documentation and the renamed screenshot files for the next commit.
+This command stages relevant documentation and screenshot changes.
 
-3. Git Commit
+### 3. Git Commit
 
-Command: git commit -m "Update Dwija backend and mobile documentation"
+```bash
+git commit -m "Update Dwija backend and mobile documentation"
+```
 
-The terminal confirmed that the commit was created successfully. The commit included the documentation updates and screenshot file changes.
+This command commits the staged changes.
 
-4. Git Push
+### 4. Git Push
 
-Command: git push origin main
+```bash
+git push origin main
+```
 
-The terminal confirmed that the committed changes were pushed successfully to the GitHub repository's main branch.
+This command pushes committed changes to the GitHub repository.
 
-Result
+## Git Terminal Output Evidence
 
-The backend and mobile documentation updates and screenshot changes were committed and uploaded to GitHub.
+The terminal showed the repository status and identified changes that needed to be staged.
 
-GitHub Repository:
+The `git add -A` command staged the relevant changes. A successful staging command normally produces no output.
+
+The terminal confirmed that the documentation and screenshot changes were committed. The commit output included the number of files changed and the commit message.
+
+The terminal subsequently confirmed that the push to `origin/main` succeeded.
+
+## GitHub Repository
 
 https://github.com/Dwija1212/IFT458-Middleware-2026-Dwija
