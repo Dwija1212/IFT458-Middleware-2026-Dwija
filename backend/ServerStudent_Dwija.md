@@ -45,7 +45,14 @@ This command uploads the committed changes to my GitHub repository.
 
 ## Terminal Output Evidence
 
-The terminal output for each command should be captured after executing the commands above. The actual results, including the commit ID and changed-file count, depend on the repository state.
+Git Commit Evidence
+
+Command:
+git commit -m "Add Dwija server documentation"
+
+Output:
+[main 53e3094] Add Dwija server documentation
+1 file changed, 56 insertions(+)
 
 ## Screenshots
 
