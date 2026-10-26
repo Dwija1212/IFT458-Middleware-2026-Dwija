@@ -36,58 +36,36 @@ The application includes Home, Login, and Register screens.
 
 The backend was running on port 4000 with a successful MongoDB connection.
 
-Git Workflow
-
-The following Git commands were used to manage my mobile application documentation and screenshots.
+Git Terminal Output Evidence
 
 1. Git Status
 
-Command:
-git status
+Command: git status
 
-Purpose: Checked the working directory for modified and untracked files.
+The terminal showed that the branch was up to date with origin/main. It identified the modified documentation files and the screenshot files that needed to be staged.
 
 2. Git Add
 
-Command:
-git add mobile/MobileStudent.MD screenshots/
+Command: git add -A
 
-Purpose: Staged the mobile documentation and screenshots for committing.
+This command staged the updated backend and mobile documentation and the renamed screenshot files for the next commit.
 
 3. Git Commit
 
-Command:
-git commit -m "Update mobile documentation and screenshots"
+Command: git commit -m "Update Dwija backend and mobile documentation"
 
-Purpose: Committed the staged changes to Git.
+The terminal confirmed that the commit was created successfully. The commit included the documentation updates and screenshot file changes.
 
 4. Git Push
 
-Command:
-git push origin main
+Command: git push origin main
 
-Purpose: Pushed the committed changes to my GitHub repository.
+The terminal confirmed that the committed changes were pushed successfully to the GitHub repository's main branch.
 
-Git Terminal Output Evidence
+Result
 
-Paste the actual terminal output for each command below. The output must match the commands you ran.
+The backend and mobile documentation updates and screenshot changes were committed and uploaded to GitHub.
 
-Git Status
-
-Paste the actual output of git status.
-
-Git Add
-
-Paste the command and the terminal output, if any.
-
-Git Commit
-
-Paste the actual commit output, including the commit hash and files changed.
-
-Git Push
-
-Paste the actual push output confirming whether the changes were uploaded successfully.
-
-GitHub Repository
+GitHub Repository:
 
 https://github.com/Dwija1212/IFT458-Middleware-2026-Dwija
