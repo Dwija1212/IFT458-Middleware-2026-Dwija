@@ -50,3 +50,4 @@ GitHub Repository
 
 https://github.com/Dwija1212/IFT458-Middleware-2026-Dwija
 
+## Git Terminal Output Evidence
